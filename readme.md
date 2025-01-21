@@ -4,6 +4,11 @@ This project demonstrates a scalable microservices-based architecture for an ord
 
 ## Architecture Overview
 
+ ![Architecture](kafkapipeline.png)
+
+
+
+
 The architecture consists of the following components:
 
 1. **Frontend**: Sends order details to the Orders Backend.
@@ -80,4 +85,3 @@ The architecture consists of the following components:
 - Add a proper frontend for user interaction.
 - Introduce a database for persistent storage.
 - Deploy the microservices to a Kubernetes cluster for improved scalability and orchestration.
-
