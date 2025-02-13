@@ -11,7 +11,7 @@ This project demonstrates a scalable microservices-based architecture for an ord
 
 The architecture consists of the following components:
 
-1. **Frontend**: Sends order details to the Orders Backend.
+1. **Frontend**: Sends order details to the Orders Backend.However, in this project we will simulate the generation of order.
 2. **Orders Backend**: Writes order details to the `order_details` Kafka topic.
 3. **Kafka Pipeline**: Acts as the central message broker between services, facilitating communication through topics.
 4. **Transactions Backend**: Consumes messages from the `order_details` topic, simulates mutating payment processing behavior, and writes processed messages to the `order_confirmed` topic.
